@@ -1,0 +1,124 @@
+{
+  "networks": {
+    "AlephZero": {
+      "name": "Aleph Zero",
+      "rpc_url": "https://rpc.alephzero.raas.gelato.cloud",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Cronos": {
+      "name": "Cronos",
+      "rpc_url": "https://evm.cronos.org",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Cronos zkEVM": {
+      "name": "Cronos zkEVM",
+      "rpc_url": "https://mainnet.zkevm.cronos.org",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Bob": {
+      "name": "Bob",
+      "rpc_url": "https://60808.rpc.thirdweb.com",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Astar": {
+      "name": "Astar",
+      "rpc_url": "https://astar.public.blastapi.io",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": true
+    },
+    "Astar zkEVM": {
+      "name": "Astar zkEVM",
+      "rpc_url": "https://rpc.startale.com/astar-zkevm",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Shiden": {
+      "name": "Shiden",
+      "rpc_url": "https://shiden-rpc.dwellir.com",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": true
+    },
+    "zKyoto": {
+      "name": "zKyoto",
+      "rpc_url": "https://rpc.startale.com/zkyoto",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Shibuya": {
+      "name": "Shibuya",
+      "rpc_url": "https://evm.shibuya.astar.network",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Boba": {
+      "name": "Boba",
+      "rpc_url": "https://mainnet.boba.network",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Etherlink": {
+      "name": "Etherlink",
+      "rpc_url": "https://node.mainnet.etherlink.com",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Everclear": {
+      "name": "Etherlink",
+      "rpc_url": "https://rpc.everclear.raas.gelato.cloud",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": false
+    },
+    "Evmos": {
+      "name": "Evmos",
+      "rpc_url": "https://evmos-evm-rpc.publicnode.com",
+      "from_block": 0,
+      "to_block": "latest",
+      "step": 100,
+      "poa": true
+    },
+    "Ethereum": {
+      "name": "Ethereum",
+      "rpc_url": "https://mainnet.infura.io/v3/574b35ce645a4fc192f8400c60cbb672",
+      "from_block": 21252756,
+      "to_block": 21262956,
+      "step": 1000,
+      "poa": false
+    },
+    "Optimism": {
+      "name": "Optimism",
+      "rpc_url": "https://optimism-mainnet.infura.io/v3/574b35ce645a4fc192f8400c60cbb672",
+      "from_block": 128429344,
+      "to_block": 128449346,
+      "step": 1000,
+      "poa": false
+    }
+  }
+}
