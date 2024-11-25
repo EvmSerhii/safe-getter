@@ -15,3 +15,16 @@
 - It should create an sqlite database where it will store owners from networks
 - To get count of unique owners run `python3 get_unique_owners.py`
 - To get count of unique owners by blockchain run `python3 get_unique_owners_by_network.py`
+
+### To add new networks
+
+- Go to `config.json`
+- Add network as example:
+  - "Network name": {
+    "name": "Network name",
+    "rpc_url": "Rpc_url",
+    "from_block": starting block,
+    "to_block": ending block ('latest'),
+    "step": number of blocks to check (limited by rpc),
+    "poa": false
+    }
